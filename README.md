@@ -9,3 +9,10 @@ The following links were consulted when figuring out what all the pieces meant
 - ["Router" Example from Miso README](https://github.com/dmjio/miso/blob/master/examples/router/Main.hs)
 - [The Transition Monad](https://haddocks.haskell-miso.org/Miso-Types.html)
 - [TypeSafe Links in Servant](https://hackage.haskell.org/package/servant-0.18/docs/Servant-Links.html)
+
+# Running Locally
+If you attempt to open the index.html file directly from the `result` directory,
+you might see security warnings and notice that the app doesn't behave properly.
+YOu can avoid this by running an http server. A quick way to do so on a unix
+machine is to `cd` into `result/bin/miso-routing.jsexe` and run `python -m
+http.server` (Python  3).
